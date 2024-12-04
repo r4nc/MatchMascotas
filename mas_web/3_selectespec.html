@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MatchMascotas</title>
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="container">
+      <div class="logo-container">
+        <img src="img/logo.png" alt="Logo" class="logo-img">
+        <span class="logo-text">
+          <span style="color: #fed800;">Match</span><span style="color: #fff;">Mascotas</span>
+        </span>
+      </div>
+      <ul class="nav-links">
+        <li class="nav-item">
+          <img src="img/snake.gif" alt="Left GIF" class="gif-icon">
+          <a href="1_selecsimple.html">Explora mascotas</a>
+          <img src="img/nutria.gif" alt="Right GIF" class="gif-icon">
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Contenido -->
+    <!-- Contenido principal -->
+    <main>
+    
+        <h1>Bienvenido a MatchMascotas</h1>
+        
+            <div class="texto-con-imagen">
+              <img src="./img/tortu.png" alt="logo0 class" class="logo0">
+              <p>Encuentra tu compañero ideal promoviendo la adopción responsable.</p>
+              <img src="./img/tortu.png" alt="log0" class="logo0">
+            </div>
+            
+          <form id="userForm">
+              <div class="form-group">
+                  <label for="tamaño">Tamaño</label>
+                  <select id="tamaño" name="tamaño" required>
+                      <option value="Pequeño">Pequeño</option>
+                      <option value="Mediano">Mediano</option>
+                      <option value="Grande">Grande</option>
+                  </select>
+              </div>
+    
+              <div class="form-group">
+                  <label for="hogar">Tipo de Hogar</label>
+                  <select id="hogar" name="hogar" required>
+                    <option value="casa">casa</option>
+                    <option value="apartamento">Apartamento</option>
+                </select>
+              </div>
+    
+              <div class="form-group">
+                  <label for="edad">Edad</label>
+                  <select id="edad" name="edad" required>
+                      <option value="Cría">Cría</option>
+                      <option value="Joven">Joven</option>
+                      <option value="Adulto">Adulto</option>
+                  </select>
+              </div>
+              <div class="form-group">
+                <label for="comp_a">Compatibilidad con niños</label>
+            </div>
+            <div class="form-group">
+                <label for="comp_a">Sí</label>
+                <input type="radio" id="comp_a" name="comp_a" value="true">
+                <label for="comp_a">No</label>
+                <input type="radio" id="comp_a" name="comp_a" value="false">
+            </div>
+            <div class="form-group">
+                <label for="comp_b">Compatibilidad con otros animales</label>
+            </div>
+            <div class="form form-group">
+                <label for="comp_b">Sí</label>
+                <input type="radio" id="comp_b" name="comp_b" value="true">
+                <label for="comp_b">No</label>
+                <input type="radio" id="comp_b" name="comp_b" value="false">
+            </div>
+    
+              <div class="form-group">
+                  <label for="nivel_actividad">Actividad</label>
+                  <select id="nivel_actividad" name="nivel_actividad" required>
+                      <option value="alta">Alta</option>
+                      <option value="media">Media</option>
+                      <option value="baja">Baja</option>
+                  </select>
+              </div>
+    
+              <div class="form-group">
+                  <label for="temperamento">Carácter</label>
+                  <select id="temperamento" name="temperamento" required>
+                      <option value="jugueton">Juguetón</option>
+                      <option value="tranquilo">Tranquilo</option>
+                      <option value="sociable">Sociable</option>
+                      <option value="independiente">Independiente</option>
+                      <option value="protector">Protector</option>
+                      <option value="curioso">Curioso</option>
+                  </select>
+              </div>
+    
+              <div class="contenedor">
+                  <button type="submit" class="submit">Enviar</button>
+              </div>
+          </form>
+      
+      
+      
+      </main>
+
+  <!--Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="logo-container">
+        <img src="img/logo.png" alt="Logo" class="logo-img">
+        <span class="logo-text">
+          <span style="color: #fed800;">Match</span><span style="color: #fff;">Mascotas</span>
+        </span>
+      </div>
+      <p class="footer-description">Sitio web diseñado para promover la adopción responsable.</p>
+    </div>
+  </footer>
+<script src="js/index2.js"></script>
+</body>
+</html>
