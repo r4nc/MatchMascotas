@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
 
         // Redirige al segundo HTML con los datos en la URL
-        window.location.href = `2_respuestamult.html?${query}`;
+        window.location.href = `/mas_web/html/2_respuestamult.html?${query}`;
     });
 });
 document.addEventListener('DOMContentLoaded', async () => {
